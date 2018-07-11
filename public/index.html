@@ -14,16 +14,15 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
 
     <title>Claim App</title>
-    <!-- jQuery 3 -->
-    <script src="%PUBLIC_URL%/bowercomponents/jquery/dist/jquery.min.js"></script>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="stylesheet" href="bowercomponents/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/bowercomponents/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="%PUBLIC_URL%/bowercomponents/font-awesome/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="%PUBLIC_URL%/bowercomponents/Ionicons/css/ionicons.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="%PUBLIC_URL%/dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/bowercomponents/datatables.net-bs/css/dataTables.bootstrap.min.css">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="%PUBLIC_URL%/dist/css/skins/_all-skins.min.css">
@@ -34,11 +33,11 @@
 
     <header class="main-header">
       <!-- Logo -->
-      <a href="index2.html" class="logo">
+      <a href="/" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b>A</b>LT</span>
+        <span class="logo-mini"><b>H</b>CM</span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b>Admin</b>LTE</span>
+        <span class="logo-lg"><b>Home</b>Claim</span>
       </a>
       <!-- Header Navbar: style can be found in header.less -->
       <nav class="navbar navbar-static-top">
@@ -332,10 +331,10 @@
             </span>
             </a>
             <ul class="treeview-menu">
-              <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+              <li class="active"><a href="/claim"><i class="fa fa-circle-o"></i> Claim</a></li>
+              <li class="active"><a href="/payment"><i class="fa fa-circle-o"></i> Payment</a></li>
             </ul>
           </li>
-          <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
         </ul>
       </section>
       <!-- /.sidebar -->
@@ -350,7 +349,7 @@
           <small>Control panel</small>
         </h1>
         <ol class="breadcrumb">
-          <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+          <li><a href="/"><i class="fa fa-dashboard"></i> Home</a></li>
           <li class="active">Dashboard</li>
         </ol>
       </section>
@@ -365,9 +364,9 @@
     <!-- /.content-wrapper -->
     <footer class="main-footer">
       <div class="pull-right hidden-xs">
-        <b>Version</b> 2.4.0
+        <b>Version</b> 1.0.0
       </div>
-      <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
+      <strong>Copyright &copy; 2018-2019 <a href="https://adminlte.io">Pritam Maity</a>.</strong> All rights
       reserved.
     </footer>
 
@@ -567,19 +566,20 @@
   </div>
   <!-- ./wrapper -->
 
-
+  <script src="%PUBLIC_URL%/bowercomponents/jquery/dist/jquery.min.js"></script>
   <!-- jQuery UI 1.11.4 -->
   <script src="%PUBLIC_URL%/bowercomponents/jquery-ui/jquery-ui.min.js"></script>
   <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
   <!-- Bootstrap 3.3.7 -->
   <script src="%PUBLIC_URL%/bowercomponents/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="%PUBLIC_URL%/bowercomponents/datatables.net/js/jquery.dataTables.min.js"></script>
+  <script src="%PUBLIC_URL%/bowercomponents/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
   <!-- Morris.js charts -->
   <script src="%PUBLIC_URL%/bowercomponents/raphael/raphael.min.js"></script>
   <!-- AdminLTE App -->
   <script src="%PUBLIC_URL%/dist/js/adminlte.min.js"></script>
   <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 
-  <!-- AdminLTE for demo purposes -->
   <script src="%PUBLIC_URL%/dist/js/demo.js"></script>
   </body>
 </html>
