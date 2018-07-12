@@ -9439,7 +9439,7 @@
 	
 	
 	/**
-	 * Template object for the way in which DataTables holds information about
+	 * HeaderTemplate object for the way in which DataTables holds information about
 	 * search information for the global filter and individual column filters.
 	 *  @namespace
 	 */
@@ -9479,7 +9479,7 @@
 	
 	
 	/**
-	 * Template object for the way in which DataTables holds information about
+	 * HeaderTemplate object for the way in which DataTables holds information about
 	 * each individual row. This is the object format used for the settings
 	 * aoData array.
 	 *  @namespace
@@ -9578,7 +9578,7 @@
 	
 	
 	/**
-	 * Template object for the column information object in DataTables. This object
+	 * HeaderTemplate object for the column information object in DataTables. This object
 	 * is held in the settings aoColumns array and contains all the information that
 	 * DataTables needs about each individual column.
 	 *
