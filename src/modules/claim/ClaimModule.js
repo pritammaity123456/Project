@@ -2,6 +2,7 @@ import React , {Component} from 'react';
 import HeaderTemplate from "../../template/HeaderTemplate";
 import FooterTemplate from '../../template/FooterTemplate';
 import SidebarTemplate from '../../template/SidebarTemplate';
+import AddModal from "./AddModal";
 
 class ClaimModule extends Component {
     render() {
@@ -28,6 +29,7 @@ class ClaimModule extends Component {
                     <section className="content">
                         <div className="row">
                             <div className="col-xs-12">
+                                <button type="button" className="btn btn-block btn-primary btn-sm" data-toggle="modal" data-target="#modal-default">New Claim Form</button>
                                 <div className="box">
                                     <div className="box-header">
                                         <h3 className="box-title">Hover Data Table</h3>
@@ -471,6 +473,7 @@ class ClaimModule extends Component {
 
                         </div>
 
+                        <AddModal />
                     </section>
 
                 </div>

@@ -20,6 +20,7 @@
     <!-- Ionicons -->
     <link rel="stylesheet" href="%PUBLIC_URL%/bowercomponents/Ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="%PUBLIC_URL%/bowercomponents/datatables.net-bs/css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/bowercomponents/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="%PUBLIC_URL%/dist/css/AdminLTE.min.css">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
@@ -51,6 +52,7 @@
 
     <script src="%PUBLIC_URL%/bowercomponents/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="%PUBLIC_URL%/bowercomponents/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script src="%PUBLIC_URL%/bowercomponents/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
     <!-- Bootstrap 3.3.7 -->
     <script src="%PUBLIC_URL%/bowercomponents/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- FastClick -->
@@ -63,6 +65,10 @@
         $(function () {
             $('#example1').DataTable()
 
+        })
+
+        $('#datepicker').datepicker({
+            autoclose: true
         })
     </script>
   </body>
